@@ -14,13 +14,13 @@ After reaching LinkedlnProfileUrlScraper directory run below command to create t
 
 Command for Windows OS:
 
-  command = $env:PYTHONPATH = "Absolute Path of Directory;$env:PYTHONPATH" (Abslolute path of this "LinkedlnProfileUrlScraper" directory)
+   command = $env:PYTHONPATH = "Absolute Path of Directory;$env:PYTHONPATH" (Abslolute path of this "LinkedlnProfileUrlScraper" directory)
   
   While entering Absolute path of the directory ensure to change backword Slash (/) into forward slash(\) inside the path in case when running in windows machine.
 
 Command for linux OS:   
 
-  Command : export PYTHONPATH="Absolute Path of Directory"  (Abslolute path of this "LinkedlnProfileUrlScraper" directory i your linux machine)
+   Command : export PYTHONPATH="Absolute Path of Directory"  (Abslolute path of this "LinkedlnProfileUrlScraper" directory i your linux machine)
   
   In this case there is no need to change backward slash.
 
@@ -64,4 +64,4 @@ Output File name exaample : 20230518142546cfzl3.csv,
 3) After time there are 5 alphanumeric characters
 
 Notes:
-1) Scripts run successfully in the scrapy framework using selenium to log in to facebook and scrape data from a facebook group and can extract upto 200 times scroll through the group and retrieve ~400 posts and beyond this stage, the script encountered elements which were not available for interact
+1) This automated Script run successfully in the scrapy framework and able to scrape approx. 500 Linkedin profile URLs after that google asking for captcha verification.
