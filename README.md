@@ -2,7 +2,7 @@
 
 1) Open the project and go to the LinkedlnProfileUrlScraper in your windows terminal or on linux operating system.
 
-2) Install Python virtual environment, scrapy package in pycharm, install instaloader package using pip install instaloader , install pandas into the terminal using pip install pandas command in the Terminal or cli to install all these packages use command: 
+2) Install all the required python packadges using below command: 
 
         pip install -r requirements.txt
 
@@ -14,37 +14,32 @@
 
    a) Command for Windows OS:
 
-       command = $env:PYTHONPATH = "Absolute Path of Directory;$env:PYTHONPATH" (Abslolute path of this "LinkedlnProfileUrlScraper" directory)
+              command = $env:PYTHONPATH = "Absolute Path of Directory;$env:PYTHONPATH" (Abslolute path of this "LinkedlnProfileUrlScraper" directory)
   
        While entering Absolute path of the directory ensure to change backword Slash (/) into forward slash(\) inside the path in case when running in windows machine.
 
    b) Command for linux OS:   
 
-      Command : export PYTHONPATH="Absolute Path of Directory"  (Abslolute path of this "LinkedlnProfileUrlScraper" directory i your linux machine)
+              Command : export PYTHONPATH="Absolute Path of Directory"  (Abslolute path of this "LinkedlnProfileUrlScraper" directory i your linux machine)
   
       In this case there is no need to change backward slash.
 
-5) Now,
-   To scrape data from facebook public groups you need a facebook login. Need to add your credentials in parameter.py file.
-
-   a)Linkedln_username = 'Enter the Username'
+5) Now, to scrape punlicly available data from  LinkelIn you. Need to add your credentials in parameter.py file.
    
-   b)Linkedln_password = 'Enter the password'
-   
-   c) Url='https://www.google.com'
+   a) Url='https://www.google.com'
 
-   d) SearchQuery : on the basis which we need to scrape data
+   b) SearchQuery : on the basis which we need to scrape data
         
-        Query= 'site:linkedin.com/in/ AND'+'"California"'
+         Query= 'site:linkedin.com/in/ AND'+'"City"'  #  In place of city, city name cane be entered example : California
 
-   e)Enter the relative path of your chromedriver (Ensure that there is chrome browser application installed in your machine)
+   c)Enter the relative path of your chromedriver (Ensure that there is chrome browser application installed in your machine)
     
-        For Windows OS : chromeDriverPath = "./chromedriver.exe"
+         For Windows OS : chromeDriverPath = "./chromedriver.exe"
     
         For linux Machinne: chromeDriverPath = "./chromedriver" (In case when running this script in linux machine then need to update the chromeDriverPath.)
 
 
-   f)   noOfUrls = 1000 (How many Linkedin URLs need to be scraped)
+   d)   noOfUrls = 1000 (How many Linkedin URLs need to be scraped)
 
 6)Now Go to the scraperSkeleton(outer) directory using command in terminal mentined below 
 
@@ -52,7 +47,7 @@
 
 7) After reaching to the scraperSkeleton directory Run following command in terminal. 
 
-    Command : scrapy crawl fbCrawler --nolog 
+    Command : scrapy crawl LinkedlnCrawler --nolog 
 
 8) The outputfile of the scraped records is generated inside scraperSkeleton(outer) folder having random name which has nomenclature as given below.
 
