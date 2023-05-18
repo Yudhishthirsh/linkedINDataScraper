@@ -4,11 +4,11 @@
 
 2) Install Python virtual environment, scrapy package in pycharm, install instaloader package using pip install instaloader , install pandas into the terminal using pip install pandas command in the Terminal or cli to install all these packages use command: 
 
-     pip install -r requirements.txt
+        pip install -r requirements.txt
 
 3) Now go to the project directory using command below:
 
-    cd LinkedlnProfileUrlScraper
+         cd LinkedlnProfileUrlScraper
 
 4) After reaching LinkedlnProfileUrlScraper directory run below command to create the Python path over all the directories and files in the project.
 
