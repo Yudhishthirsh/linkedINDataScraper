@@ -34,9 +34,13 @@
 
    c)Enter the relative path of your chromedriver (Ensure that there is chrome browser application installed in your machine)
     
-         For Windows OS : chromeDriverPath = "./chromedriver.exe"
+          For Windows OS : chromeDriverPath = "./chromedriver.exe"
     
           For linux Machinne: chromeDriverPath = "./chromedriver" (In case when running this script in linux machine then need to update the chromeDriverPath.)
+          
+    Need to save the latest chromedriver versions for both linux and windows OS in order to run script successfully.
+    
+    link for chromedrivers:  https://chromedriver.chromium.org/
 
 
    d)   noOfUrls = 1000 (How many Linkedin URLs need to be scraped)
