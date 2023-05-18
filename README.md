@@ -37,9 +37,7 @@ To scrape data from facebook public groups you need a facebook login. Need to ad
 
 #Enter the relative path of your chromedriver
 
-4)  Ensure that there is chrome browser application installed in your machine
-
-    If it is not the need to install it using your python program.
+4)Ensure that there is chrome browser application installed in your machine
     
     For Windows OS : relative_path = "./chromedriver.exe"
     
