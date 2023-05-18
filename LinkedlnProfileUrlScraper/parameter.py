@@ -7,7 +7,7 @@ Url='https://www.google.com'
 Query= 'site:linkedin.com/in/ AND'+'"City"'
 #Change only the city name for what location you searching the linkedln user profiles
 #Enter the relative path of your chromedriver
-chromDriverPath = "./chromedriver.exe" # while using linux OS the need to remove .exe and update the path.
+chromeDriverPath = "./chromedriver.exe" # while using linux OS the need to remove .exe and update the path.
 
 # Define the Random file name
 length = 5
