@@ -14,13 +14,13 @@
 
    a) Command for Windows OS:
 
-              command = $env:PYTHONPATH = "Absolute Path of Directory;$env:PYTHONPATH" (Abslolute path of this "LinkedlnProfileUrlScraper" directory)
+              command = $env:PYTHONPATH = "Absolute Path of Directory;$env:PYTHONPATH" # Abslolute path of this "LinkedlnProfileUrlScraper" directory
   
        While entering Absolute path of the directory ensure to change backword Slash (/) into forward slash(\) inside the path in case when running in windows machine.
 
    b) Command for linux OS:   
 
-              Command : export PYTHONPATH="Absolute Path of Directory"  (Abslolute path of this "LinkedlnProfileUrlScraper" directory i your linux machine)
+              Command : export PYTHONPATH="Absolute Path of Directory" # Abslolute path of this "LinkedlnProfileUrlScraper" directory i your linux machine
   
       In this case there is no need to change backward slash.
 
@@ -36,7 +36,7 @@
     
           For Windows OS : chromeDriverPath = "./chromedriver.exe"
     
-          For linux Machinne: chromeDriverPath = "./chromedriver" (In case when running this script in linux machine then need to update the chromeDriverPath.)
+          For linux Machinne: chromeDriverPath = "./chromedriver" #In case when running this script in linux machine then need to update the chromeDriverPath.
           
     Need to save the latest chromedriver versions for both linux and windows OS in order to run script successfully.
     
