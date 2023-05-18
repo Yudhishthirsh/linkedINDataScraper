@@ -3,4 +3,4 @@ scrapy == 2.9.0
 pandas == 1.4.1
 bs4 == 0.0.1
 beautifulsoup4 == 4.12.2
-virtualenv
+virtualenv == 20.23.0
