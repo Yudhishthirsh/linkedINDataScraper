@@ -69,5 +69,4 @@ Notes:
 2) These Linked Profile URLs can be further used to scrape the profile data on linkedin.
 
 3) In this case google is use to change tags and Xpath frequently, in order to overcome that element not found error need to update the Xpath and the tags. Otherwise this 
-
    script will not be locate the elements on web page and hence it will not able to scrape the data.
