@@ -1,5 +1,14 @@
 # linkedINDataScraper
 
+This is the LinkedIN Profile URL Scraping Framework which can be able to scrape URL of linkedIn user profiles from google search.
+--
+Using this script URL of LinkedIn user profiles and this script supports linux, windows OS both.
+
+With the help of linkedINDataScraper Only URLs can be extractes after that these URLs can be used to fetch data from the linkedIn profiles.
+
+The script description is mentioned below
+--
+
 1) Open the project and go to the LinkedlnProfileUrlScraper in your windows terminal or on linux operating system.
 
 2) Install all the required python packages using below command: 
@@ -12,13 +21,19 @@
 
 4) After reaching LinkedlnProfileUrlScraper directory run below command to create the Python path over all the directories and files in the project.
 
-   a) Command for Windows OS:
+a) Command for Windows OS:
 
               command = $env:PYTHONPATH = "Absolute Path of Directory;$env:PYTHONPATH" # Abslolute path of this "LinkedlnProfileUrlScraper" directory
   
        While entering Absolute path of the directory ensure to change backword Slash (/) into forward slash(\) inside the path in case when running in windows machine.
+       
+ To run this script in cmd.exe in windows os :
 
-   b) Command for linux OS:   
+              set PYTHONPATH=Absolute path of the directory;%PYTHONPATH%
+             
+              No need of changing backward slashes in (/) while using cmd.exe
+              
+ b) Command for linux OS:   
 
               Command : export PYTHONPATH="Absolute Path of Directory" # Abslolute path of this "LinkedlnProfileUrlScraper" directory i your linux machine
   
@@ -30,7 +45,7 @@
 
    b) SearchQuery : on the basis which we need to scrape data
         
-         Query= 'site:linkedin.com/in/ AND'+'"City"'  #  In place of city, city name can be entered example : California
+         Query= 'site:linkedin.com/in/ AND'+'"City"'  #  In place of city, city name should be entered example : California
 
    c)Enter the relative path of your chromedriver (Ensure that there is chrome browser application installed in your machine)
     
